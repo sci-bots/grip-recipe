@@ -1,0 +1,27 @@
+package:
+  name: grip
+  version: 4.4.0
+
+build:
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  number: 0
+  script: pip install "grip==4.4.0"
+
+requirements:
+  build:
+    - python
+    - flask >=0.10.1
+    - markdown >=2.5.1
+    - pygments >=1.6
+    - docopt >=0.4.0
+    - path-and-address >=2.0.1
+    - requests >=2.4.1
+  run:
+    - python
+    - flask >=0.10.1
+    - markdown >=2.5.1
+    - pygments >=1.6
+    - docopt >=0.4.0
+    - path-and-address >=2.0.1
+    - requests >=2.4.1
